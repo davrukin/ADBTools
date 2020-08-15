@@ -28,7 +28,6 @@ func allowHiddenApiAccess() {
 		println(err1.Error())
 	} else {
 		println("Step 1 complete.")
-		//println(string(step1))
 	}
 
 	if err2 != nil {
@@ -36,7 +35,6 @@ func allowHiddenApiAccess() {
 		println(err2.Error())
 	} else {
 		println("Step 2 complete.")
-		//println(string(step2))
 	}
 
 	if err3 != nil {
@@ -44,7 +42,6 @@ func allowHiddenApiAccess() {
 		println(err3.Error())
 	} else {
 		println("Step 3 complete.")
-		//println(string(step3))
 	}
 }
 
@@ -60,7 +57,6 @@ func denyHiddenApiAccess() {
 		println("Step 1 error:")
 		println(err1.Error())
 	} else {
-		//println(string(step1))
 		println("Step 1 complete.")
 	}
 
@@ -68,7 +64,6 @@ func denyHiddenApiAccess() {
 		println("Step 2 error:")
 		println(err2.Error())
 	} else {
-		//println(string(step2))
 		println("Step 2 complete.")
 	}
 
@@ -76,7 +71,6 @@ func denyHiddenApiAccess() {
 		println("Step 3 error:")
 		println(err3.Error())
 	} else {
-		//println(string(step3))
 		println("Step 3 complete.")
 	}
 }
